@@ -37,6 +37,10 @@
   "resources":[
     {"id":{"name":"obj_vessel","path":"objects/obj_vessel/obj_vessel.yy",},},
     {"id":{"name":"rm_test1","path":"rooms/rm_test1/rm_test1.yy",},},
+    {"id":{"name":"spr_kriswd","path":"sprites/spr_kriswd/spr_kriswd.yy",},},
+    {"id":{"name":"spr_kriswl","path":"sprites/spr_kriswl/spr_kriswl.yy",},},
+    {"id":{"name":"spr_kriswr","path":"sprites/spr_kriswr/spr_kriswr.yy",},},
+    {"id":{"name":"spr_kriswu","path":"sprites/spr_kriswu/spr_kriswu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

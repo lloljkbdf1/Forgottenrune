@@ -1,0 +1,2 @@
+sprite_index=spr_kriswu
+image_index=1
