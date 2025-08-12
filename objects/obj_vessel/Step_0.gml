@@ -6,11 +6,17 @@ var right=keyboard_check(vk_right)
 var runkey=keyboard_check(vk_shift)
 if (runkey){
 	movespeed=runspeed
+    show_debug_message(sprite_get_speed(sprite_index))
 }else{
 	movespeed=walkspeed
 }
 xspeed=(right-left)*movespeed
 yspeed=(down-up)*movespeed
+//collision :)
+if(place_meeting(x+xspeed,y+yspeed,obj_collide)){
+xspeed=0
+yspeed=0
+}
 x+=xspeed
 y+=yspeed
 //animation :)
@@ -31,3 +37,5 @@ if(xspeed!=0 or yspeed!=0)
 	image_speed=0
 	image_index=0
 }
+x[0]=round(x[0.1])
+y[0]=round(y[0.1])
