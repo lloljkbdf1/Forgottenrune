@@ -39,3 +39,16 @@ if(xspeed!=0 or yspeed!=0)
 }
 x[0]=round(x[0.1])
 y[0]=round(y[0.1])
+//facing direction saving
+if sprite_index=spr_kriswd{
+	facing=2
+}
+if sprite_index=spr_kriswu{
+	facing=3
+}
+if sprite_index=spr_kriswl{
+	facing=1
+}
+if sprite_index=spr_kriswr{
+	facing=0
+}
