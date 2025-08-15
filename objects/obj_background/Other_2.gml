@@ -1,1 +1,0 @@
-obj_background.image_alpha=0

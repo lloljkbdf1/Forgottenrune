@@ -1,2 +1,0 @@
-sprite_index=spr_kriswd
-image_index=1
