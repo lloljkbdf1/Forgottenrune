@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Undertale";
+    src: 
+    url(8bitoperator_jve.ttf) format("truetype"),
+    url(8bitoperator_jve.woff) format("woff"),
+    url(8bitoperator_jve.woff2) format("woff2");
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:"Undertale";
+}
+#Forg1{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+} 
+#Forgotten{
+    width: 30em;
+    image-rendering: pixelated;
+    position: relative;
+    left: 10%;
+}
+#For{
+    bottom: 2em;
+    position: relative;
+}
+#Fo{
+    left: 25em;
+    bottom: 4em;
+    position: relative;
+}
